@@ -1,0 +1,10 @@
+C:\Users\ОрунбаеваС.CORP\source\repos\ControlTest\AppData\obj\Debug\AppData.csprojResolveAssemblyReference.cache
+C:\Users\ОрунбаеваС.CORP\source\repos\ControlTest\AppData\obj\Debug\AppData.csproj.CoreCompileInputs.cache
+C:\Users\ОрунбаеваС.CORP\source\repos\ControlTest\AppData\bin\Debug\AppData.dll
+C:\Users\ОрунбаеваС.CORP\source\repos\ControlTest\AppData\bin\Debug\AppData.pdb
+C:\Users\ОрунбаеваС.CORP\source\repos\ControlTest\AppData\bin\Debug\AppModels.dll
+C:\Users\ОрунбаеваС.CORP\source\repos\ControlTest\AppData\bin\Debug\Newtonsoft.Json.dll
+C:\Users\ОрунбаеваС.CORP\source\repos\ControlTest\AppData\bin\Debug\AppModels.pdb
+C:\Users\ОрунбаеваС.CORP\source\repos\ControlTest\AppData\bin\Debug\Newtonsoft.Json.xml
+C:\Users\ОрунбаеваС.CORP\source\repos\ControlTest\AppData\obj\Debug\AppData.dll
+C:\Users\ОрунбаеваС.CORP\source\repos\ControlTest\AppData\obj\Debug\AppData.pdb
