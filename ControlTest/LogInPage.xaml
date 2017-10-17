@@ -1,0 +1,22 @@
+﻿<Page x:Class="ControlTest.LogInPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:ControlTest"
+      mc:Ignorable="d" 
+      d:DesignHeight="300" d:DesignWidth="300"
+      Title="LogInPage">
+
+    <Grid Margin="0,0,-50,-145">
+        <TextBlock HorizontalAlignment="Left" Margin="82,88,0,0" TextWrapping="Wrap" Text="Логин" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="82,150,0,0" TextWrapping="Wrap" Text="Пароль" VerticalAlignment="Top"/>
+        <TextBox Name="loginTextbox" HorizontalAlignment="Left" Height="23" Margin="171,88,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="171,150,0,0" TextWrapping="Wrap" Name="passwordTextBox" VerticalAlignment="Top" Width="120"/>
+        <Button Name="signInButton" Content="Войти" HorizontalAlignment="Left" Margin="113,211,0,0" VerticalAlignment="Top" Width="136" Height="34" Click="SignInButton_Click"/>
+        <Button Name="signUpButton" Content="Зарегистрироваться" HorizontalAlignment="Left" Margin="113,268,0,0" VerticalAlignment="Top" Width="136" Height="34" Click="SignUpButton_Click"/>
+        <Label Name="forgotPasswordLabel" Hyperlink.Click="ForgotPasswordLabel_Click" HorizontalAlignment="Left" Margin="130,340,0,0" VerticalAlignment="Top">
+            <Hyperlink>Забыли пароль?</Hyperlink>
+        </Label>
+    </Grid>
+</Page>

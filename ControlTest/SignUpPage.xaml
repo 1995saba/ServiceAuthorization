@@ -1,0 +1,32 @@
+﻿<Page x:Class="ControlTest.SignUpPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:ControlTest"
+      mc:Ignorable="d" 
+      d:DesignHeight="300" d:DesignWidth="300"
+      Title="SignUpPage">
+
+    <Grid Margin="0,0,-125,-156">
+        <Image Name="userPhoto" HorizontalAlignment="Left" Height="100" Margin="10,26,0,0" VerticalAlignment="Top" Width="100"/>
+        <Button Name="downloadPhotoButton" Content="Загрузить" HorizontalAlignment="Left" Margin="19,147,0,0" VerticalAlignment="Top" Width="75"/>
+        <TextBlock HorizontalAlignment="Left" Margin="145,40,0,0" TextWrapping="Wrap" Text="Введите логин" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="145,78,0,0" TextWrapping="Wrap" Text="Введите пароль" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="145,123,0,0" TextWrapping="Wrap" Text="Повторите пароль" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="145,172,0,0" TextWrapping="Wrap" Text="Введите email" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="37,230,0,0" TextWrapping="Wrap" Text="Дополнительная информация" VerticalAlignment="Top"/>
+        <RichTextBox Name="otherInfoRichTextBox" HorizontalAlignment="Left" Height="100" Margin="62,266,0,0" VerticalAlignment="Top" Width="305">
+            <FlowDocument>
+                <Paragraph>
+                    <Run Text=""/>
+                </Paragraph>
+            </FlowDocument>
+        </RichTextBox>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="267,40,0,0" TextWrapping="Wrap" Name="loginTextBox" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="267,78,0,0" TextWrapping="Wrap" Name="passwordTextBox" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="267,122,0,0" TextWrapping="Wrap" Name="repeatPasswordTextBox" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="267,172,0,0" TextWrapping="Wrap" Name="emailTextBox" VerticalAlignment="Top" Width="120"/>
+        <Button Name="saveButton" Content="Сохранить" HorizontalAlignment="Left" Margin="183,405,0,0" VerticalAlignment="Top" Width="75" Click="SaveButton_Click"/>
+    </Grid>
+</Page>
