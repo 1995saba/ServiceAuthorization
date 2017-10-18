@@ -14,6 +14,7 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 using AppServices;
 using AppModels;
+using AppData;
 
 namespace ControlTest
 {
@@ -22,19 +23,44 @@ namespace ControlTest
     /// </summary>
     public partial class LogInPage : Page
     {
-        EmailSender emailSender;
-        User currentUser = new User();
-        Authorization authorization = new Authorization();
+        private EmailSender emailSender;
+        private User currentUser;
+        private Authorization authorization;
+        private UserPage userPage;
+        private DataBase dataBase;
+
         public LogInPage()
         {
             InitializeComponent();
+            currentUser = new User();
+            authorization = new Authorization();
+            userPage = new UserPage();
         }
 
         private void SignInButton_Click(object sender, RoutedEventArgs e)
         {
-            
+            if (!((loginTextBox.Text == "") || (passwordTextBox.Text == "")))
+            {
+                if (loginTextBox.Text[0] >= '0' && loginTextBox.Text[0] <= '9')
+                {
+                    loginTextBox.Text = "";
+                    passwordTextBox.Text = "";
+                    incorrectPasswordTextBlock.Visibility=Visibility.Visible;
+                }
 
-            NavigationService.Navigate(new Uri("UserPage.xaml", UriKind.Relative));
+                userPage.CurrentUser = authorization.AuthorityVerify(loginTextBox.Text, passwordTextBox.Text);
+                if (userPage.CurrentUser != null)
+                {
+                    NavigationService.Navigate(userPage);
+                    userPage.loginTextBlock.Text = currentUser.Login;
+                }
+                else
+                {
+                    loginTextBox.Text = "";
+                    passwordTextBox.Text = "";
+                    incorrectPasswordTextBlock.Visibility = Visibility.Visible;
+                }
+            }  
         }
 
         private void SignUpButton_Click(object sender, RoutedEventArgs e)

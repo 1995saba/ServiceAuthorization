@@ -10,7 +10,7 @@
 
     <Grid Margin="0,0,-166,-81">
         <Image Name="userPhoto" HorizontalAlignment="Left" Height="100" Margin="10,17,0,0" VerticalAlignment="Top" Width="100"/>
-        <TextBlock Name="user" HorizontalAlignment="Left" Margin="235,24,0,0" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBlock Name="loginTextBlock" HorizontalAlignment="Left" Margin="235,24,0,0" TextWrapping="Wrap" VerticalAlignment="Top"/>
         <TextBlock HorizontalAlignment="Left" Margin="189,153,0,0" TextWrapping="Wrap" Text="Добро пожаловать!" VerticalAlignment="Top"/>
 
     </Grid>

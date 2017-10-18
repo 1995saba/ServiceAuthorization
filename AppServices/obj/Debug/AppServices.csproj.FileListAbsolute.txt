@@ -10,3 +10,14 @@ C:\Users\ОрунбаеваС.CORP\source\repos\ControlTest\AppServices\bin\Debu
 C:\Users\ОрунбаеваС.CORP\source\repos\ControlTest\AppServices\obj\Debug\AppServices.csprojResolveAssemblyReference.cache
 C:\Users\ОрунбаеваС.CORP\source\repos\ControlTest\AppServices\obj\Debug\AppServices.dll
 C:\Users\ОрунбаеваС.CORP\source\repos\ControlTest\AppServices\obj\Debug\AppServices.pdb
+C:\Users\HP\Documents\GitHub\ServiceAuthorization\AppServices\bin\Debug\AppServices.dll
+C:\Users\HP\Documents\GitHub\ServiceAuthorization\AppServices\bin\Debug\AppServices.pdb
+C:\Users\HP\Documents\GitHub\ServiceAuthorization\AppServices\bin\Debug\AppData.dll
+C:\Users\HP\Documents\GitHub\ServiceAuthorization\AppServices\bin\Debug\AppModels.dll
+C:\Users\HP\Documents\GitHub\ServiceAuthorization\AppServices\bin\Debug\Newtonsoft.Json.dll
+C:\Users\HP\Documents\GitHub\ServiceAuthorization\AppServices\bin\Debug\AppData.pdb
+C:\Users\HP\Documents\GitHub\ServiceAuthorization\AppServices\bin\Debug\AppModels.pdb
+C:\Users\HP\Documents\GitHub\ServiceAuthorization\AppServices\bin\Debug\Newtonsoft.Json.xml
+C:\Users\HP\Documents\GitHub\ServiceAuthorization\AppServices\obj\Debug\AppServices.csprojResolveAssemblyReference.cache
+C:\Users\HP\Documents\GitHub\ServiceAuthorization\AppServices\obj\Debug\AppServices.dll
+C:\Users\HP\Documents\GitHub\ServiceAuthorization\AppServices\obj\Debug\AppServices.pdb

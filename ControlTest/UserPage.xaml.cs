@@ -23,12 +23,11 @@ namespace ControlTest
     /// </summary>
     public partial class UserPage : Page
     {
-        DataBase dataBase = new DataBase();
-        User currentUser = new User();
+        public User CurrentUser { get; set; }
+
         public UserPage()
         {
             InitializeComponent();
-            //user.Text=(dataBase.Deserializer(currentUser)).ToString();
         }
     }
 }

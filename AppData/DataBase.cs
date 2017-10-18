@@ -31,12 +31,6 @@ namespace AppData
             users.Add(admin);
         }
 
-        public void Deserializer(User user)
-        {
-            JsonConvert.DeserializeObject(user.Login);
-            JsonConvert.DeserializeObject(user.Email);
-            JsonConvert.DeserializeObject(user.OtherInfo);
-        }
         public void AddUser(User user)
         {
             user = new User();

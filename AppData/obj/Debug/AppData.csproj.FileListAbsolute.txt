@@ -8,3 +8,12 @@ C:\Users\ОрунбаеваС.CORP\source\repos\ControlTest\AppData\bin\Debug\Ap
 C:\Users\ОрунбаеваС.CORP\source\repos\ControlTest\AppData\bin\Debug\Newtonsoft.Json.xml
 C:\Users\ОрунбаеваС.CORP\source\repos\ControlTest\AppData\obj\Debug\AppData.dll
 C:\Users\ОрунбаеваС.CORP\source\repos\ControlTest\AppData\obj\Debug\AppData.pdb
+C:\Users\HP\Documents\GitHub\ServiceAuthorization\AppData\bin\Debug\AppData.dll
+C:\Users\HP\Documents\GitHub\ServiceAuthorization\AppData\bin\Debug\AppData.pdb
+C:\Users\HP\Documents\GitHub\ServiceAuthorization\AppData\bin\Debug\AppModels.dll
+C:\Users\HP\Documents\GitHub\ServiceAuthorization\AppData\bin\Debug\Newtonsoft.Json.dll
+C:\Users\HP\Documents\GitHub\ServiceAuthorization\AppData\bin\Debug\AppModels.pdb
+C:\Users\HP\Documents\GitHub\ServiceAuthorization\AppData\bin\Debug\Newtonsoft.Json.xml
+C:\Users\HP\Documents\GitHub\ServiceAuthorization\AppData\obj\Debug\AppData.csprojResolveAssemblyReference.cache
+C:\Users\HP\Documents\GitHub\ServiceAuthorization\AppData\obj\Debug\AppData.dll
+C:\Users\HP\Documents\GitHub\ServiceAuthorization\AppData\obj\Debug\AppData.pdb

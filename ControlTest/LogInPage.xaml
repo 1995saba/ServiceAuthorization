@@ -11,12 +11,13 @@
     <Grid Margin="0,0,-50,-145">
         <TextBlock HorizontalAlignment="Left" Margin="82,88,0,0" TextWrapping="Wrap" Text="Логин" VerticalAlignment="Top"/>
         <TextBlock HorizontalAlignment="Left" Margin="82,150,0,0" TextWrapping="Wrap" Text="Пароль" VerticalAlignment="Top"/>
-        <TextBox Name="loginTextbox" HorizontalAlignment="Left" Height="23" Margin="171,88,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox Name="loginTextBox" HorizontalAlignment="Left" Height="23" Margin="171,88,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
         <TextBox HorizontalAlignment="Left" Height="23" Margin="171,150,0,0" TextWrapping="Wrap" Name="passwordTextBox" VerticalAlignment="Top" Width="120"/>
         <Button Name="signInButton" Content="Войти" HorizontalAlignment="Left" Margin="113,211,0,0" VerticalAlignment="Top" Width="136" Height="34" Click="SignInButton_Click"/>
         <Button Name="signUpButton" Content="Зарегистрироваться" HorizontalAlignment="Left" Margin="113,268,0,0" VerticalAlignment="Top" Width="136" Height="34" Click="SignUpButton_Click"/>
         <Label Name="forgotPasswordLabel" Hyperlink.Click="ForgotPasswordLabel_Click" HorizontalAlignment="Left" Margin="130,340,0,0" VerticalAlignment="Top">
             <Hyperlink>Забыли пароль?</Hyperlink>
         </Label>
+        <TextBlock Name="incorrectPasswordTextBlock" HorizontalAlignment="Left" Margin="50,38,0,0" TextWrapping="Wrap" Text="Неверно введено имя пользователя или пароль" Foreground="Red" Visibility="Hidden" VerticalAlignment="Top"/>
     </Grid>
 </Page>

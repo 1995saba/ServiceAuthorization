@@ -22,11 +22,13 @@ namespace ControlTest
     /// </summary>
     public partial class SignUpPage : Page
     {
-        DataBase dataBase;
+        private DataBase dataBase;
+        private UserPage userPage;
+
         public SignUpPage()
         {
             InitializeComponent();
-            dataBase = new DataBase();
+            userPage = new UserPage();
         }
 
         private void SaveButton_Click(object sender, RoutedEventArgs e)
@@ -39,8 +41,9 @@ namespace ControlTest
                 OtherInfo = otherInfoRichTextBox.ToString()
             };
             dataBase.AddUser(user);
-
-            NavigationService.Navigate(new Uri("UserPage.xaml", UriKind.Relative));
+            userPage.CurrentUser = user;
+            userPage.loginTextBlock.Text = user.Login;
+            NavigationService.Navigate(userPage);
         }
     }
 }

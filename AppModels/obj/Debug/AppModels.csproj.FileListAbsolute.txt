@@ -6,3 +6,10 @@ C:\Users\ОрунбаеваС.CORP\source\repos\ControlTest\AppModels\obj\Debug\
 C:\Users\ОрунбаеваС.CORP\source\repos\ControlTest\AppModels\obj\Debug\AppModels.csproj.CoreCompileInputs.cache
 C:\Users\ОрунбаеваС.CORP\source\repos\ControlTest\AppModels\obj\Debug\AppModels.dll
 C:\Users\ОрунбаеваС.CORP\source\repos\ControlTest\AppModels\obj\Debug\AppModels.pdb
+C:\Users\HP\Documents\GitHub\ServiceAuthorization\AppModels\bin\Debug\AppModels.dll
+C:\Users\HP\Documents\GitHub\ServiceAuthorization\AppModels\bin\Debug\AppModels.pdb
+C:\Users\HP\Documents\GitHub\ServiceAuthorization\AppModels\bin\Debug\Newtonsoft.Json.dll
+C:\Users\HP\Documents\GitHub\ServiceAuthorization\AppModels\bin\Debug\Newtonsoft.Json.xml
+C:\Users\HP\Documents\GitHub\ServiceAuthorization\AppModels\obj\Debug\AppModels.csprojResolveAssemblyReference.cache
+C:\Users\HP\Documents\GitHub\ServiceAuthorization\AppModels\obj\Debug\AppModels.dll
+C:\Users\HP\Documents\GitHub\ServiceAuthorization\AppModels\obj\Debug\AppModels.pdb
